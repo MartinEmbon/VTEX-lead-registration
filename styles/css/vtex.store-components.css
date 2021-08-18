@@ -1,0 +1,18 @@
+.imageElement{
+    border-radius: 20px;
+}
+
+
+.searchBarContainer {
+    width: 550px;
+    outline: none;
+    box-shadow: none;
+}
+
+.input{
+    border: none;
+}
+
+.searchIcon{
+    src: "assets/heart.png";
+}

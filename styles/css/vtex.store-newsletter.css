@@ -1,0 +1,18 @@
+.newsletterForm{
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.emailInputContainer{
+    margin-bottom: .5rem;
+}
+.nameInputContainer{
+    margin-bottom: .5rem;
+}
+
+.formSubmitContainer{
+    margin: auto;
+    text-align: center;
+}

@@ -22,7 +22,9 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "paddingTop":4,
+      "paddingBottom":4
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -42,35 +44,61 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": ["image"]
   },
-  "logo": {
+  "image": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "src": "assets/logo.png",
+      "width": "50%",
+      "blockClass":"logotit"
     }
   },
+
+  
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "children": ["flex-layout.row#mobile1","flex-layout.row#mobile2","flex-layout.row#mobile3"]
   },
-  "flex-layout.row#mobile": {
+
+  "flex-layout.row#mobile1": {
     "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
+      "flex-layout.col#logo-desktop"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "horizontalAlign":"center"
+    }
+  },
+  "flex-layout.row#mobile2": {
+    "children": [
+      
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,"horizontalAlign":"center"
+    }
+  },
+  "flex-layout.row#mobile3": {
+    "children": [
+      
       "minicart.v2"
     ],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "horizontalAlign":"center"
     }
   },
   "drawer": {

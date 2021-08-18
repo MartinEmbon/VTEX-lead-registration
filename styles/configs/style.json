@@ -129,7 +129,7 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#0F3E99",
+      "action-primary": "#ffffff",
       "action-secondary": "#eef3f7",
       "link": "#0F3E99",
       "emphasis": "#f71963",
@@ -240,8 +240,8 @@
       "muted-5": "#3f3f40"
     },
     "hover-on": {
-      "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
+      "action-primary": "white",
+      "action-secondary": "blue",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "#3f3f40",

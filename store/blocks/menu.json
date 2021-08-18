@@ -1,0 +1,73 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "horizontal"      
+    },
+    "children": [
+      "menu-item#entrar",
+      "menu-item#desafios",
+      "menu-item#loja",
+      "menu-item#whatsapp"
+    ]
+  },
+  "menu-item#entrar": {
+    "props": {
+      "id": "menu-item-entrar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Entrar",
+        "text": "ENTRAR"
+      }
+    }
+  },
+  "menu-item#desafios": {
+    "props": {
+      "id": "menu-item-desafios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.upmedal.com/desafios",
+        "noFollow": false,
+        "tagTitle": "Desafios",
+        "text": "DESAFIOS"
+      }
+    }
+  },
+  "menu-item#loja": {
+    "props": {
+      "id": "menu-item-loja",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.upmedal.com/loja/6",
+        "noFollow": false,
+        "tagTitle": "Loja",
+        "text": "LOJA"
+      }
+    }
+  },
+  "menu-item#whatsapp": {
+    "props": {
+      "id": "menu-item-whatsapp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Whatsapp",
+        "text": "WHATSAPP"
+      }
+    }
+  }
+}

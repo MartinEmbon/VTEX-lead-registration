@@ -1,15 +1,173 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "tab-layout#home",
+      "rich-text",
+      "flex-layout.row#shelf",
+      
+      "newsletter-form"
     ]
   },
-  "rich-text": { 
-    "props": { 
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "tab-layout#home": {
+    "children": ["tab-list#home", "slider-layout", "tab-content#home"],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "slider-layout": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "autoplay": { "timeout": 7000, "stopOnHover": true },
+      "arrowSize": "15",
+      "blockClass": "carousel"
+    },
+    "children": ["image#banner1", "image#banner2"]
+  },
+
+
+  "image#banner1": {
+    "props": {
+      "src": "assets/banner1.png",
+      "maxWidth": "80%"
+    }
+  },
+  "image#banner2": {
+    "props": {
+      "src": "assets/banner2.png",    
+      "maxWidth": "80%"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2",
+      "tab-list.item#home3",
+      "tab-list.item#home4",
+      "tab-list.item#home5",
+      "tab-list.item#home6"
+    ]
+   
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "promo",
+      "label": "Promocao",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "Corinthians"
+    }
+  },
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "Palmeiras"
+    }
+  },
+  "tab-list.item#home4": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "Divertidos"
+    }
+  },
+  "tab-list.item#home5": {
+    "props": {
+      "tabId": "maravilhas",
+      "label": "7 Maravilhas"
+    }
+  },
+  "tab-list.item#home6": {
+    "props": {
+      "tabId": "guerreiros",
+      "label": "Guerreiros"
+    }
+  },
+  
+  "tab-content#home": {
+    "children": ["tab-content.item#home1", "tab-content.item#home2"]
+  },
+  "tab-content.item#home1": {
+    "children": ["rich-text"],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": ["rich-text"],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "tab-content.item#home3": {
+    "children": ["rich-text"],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "tab-content.item#home4": {
+    "children": ["rich-text"],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "tab-content.item#home5": {
+    "children": ["rich-text"],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "tab-content.item#home6": {
+    "children": ["rich-text"],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "rich-text": {
+    "props": {
       "text": "VTEX Store Framework",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-6"
     }
   }
 }
