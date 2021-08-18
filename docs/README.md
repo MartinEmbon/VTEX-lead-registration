@@ -8,7 +8,7 @@ While Store Theme gives developers a ready-to-go default store front structure, 
 
 ## Configuration
 
-### Step 1 -  Basic setup
+### Step 1 -  Basic setups
 
 Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
 
