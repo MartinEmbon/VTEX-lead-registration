@@ -5,24 +5,23 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop"        
-    ]
+    ]    
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",      
-      "footer-spacer"
+      "vtex.menu@2.x:menu#Products"      
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
+      
     }
   },
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile"
-      
+      "flex-layout.row#1-footer-mobile"      
     ]
   },
   "flex-layout.row#1-footer-mobile": {
@@ -30,8 +29,7 @@
       "paddingTop": 4,
       "paddingBottom": 4
     },
-    "children": [      "vtex.menu@2.x:menu#Products"
-    ]
+    "children": ["vtex.menu@2.x:menu#Products"]
   
   }
 }

@@ -2,3 +2,8 @@
     color: white;
     text-transform: uppercase;
 }
+
+.paragraph--richLeads{
+    margin-top: 2rem;
+    color:black;
+}

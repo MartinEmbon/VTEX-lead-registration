@@ -3,8 +3,12 @@
     color: white;
 }
 
-.menuContainer{
-    margin: left;
+.menuContainerList{
+    
     text-align: center;
     width: 100%;
+}
+
+.styledLinkContainer{
+    text-align: center;
 }

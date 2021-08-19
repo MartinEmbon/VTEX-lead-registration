@@ -2,9 +2,8 @@
   "store.home": {
     "blocks": [
       "tab-layout#home",
-      "rich-text",
-      "flex-layout.row#shelf",
-      
+      "rich-text#leads",
+//      "flex-layout.row#shelf",      
       "newsletter-form"
     ]
   },
@@ -14,36 +13,6 @@
       "newsletter-input-name",
       "newsletter-submit"
     ]
-  },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
-  },
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
-
-  "tab-layout#home": {
-    "children": ["tab-list#home", "slider-layout", "tab-content#home"],
-    "props": {
-      "blockClass": "home",
-      "defaultActiveTabId": "home1"
-    }
   },
   "slider-layout": {
     "props": {
@@ -74,6 +43,18 @@
       "maxWidth": "80%"
     }
   },
+  //"flex-layout.row#shelf": {
+    //"children": ["list-context.product-list#demo1"]
+  //},
+
+  "tab-layout#home": {
+    "children": ["tab-list#home", "slider-layout", "tab-content#home"],
+    "props": {
+      "blockClass": "home"
+  
+    }
+  },
+  
   "tab-list#home": {
     "children": [
       "tab-list.item#home1",
@@ -87,7 +68,7 @@
   },
   "tab-list.item#home1": {
     "props": {
-      "tabId": "promo",
+      "tabId": "promocao",
       "label": "Promocao",
       "defaultActiveTab": true
     }
@@ -112,7 +93,7 @@
   },
   "tab-list.item#home5": {
     "props": {
-      "tabId": "maravilhas",
+      "tabId": "7maravilhas",
       "label": "7 Maravilhas"
     }
   },
@@ -124,50 +105,100 @@
   },
   
   "tab-content#home": {
-    "children": ["tab-content.item#home1", "tab-content.item#home2"]
+    "children": [
+      "tab-content.item#home1",
+      "tab-content.item#home2",
+      "tab-content.item#home3",
+      "tab-content.item#home4",
+      "tab-content.item#home5",
+      "tab-content.item#home6"
+    ]
   },
+
   "tab-content.item#home1": {
-    "children": ["rich-text"],
+    "children": ["slider-layout#demo-products","list-context.product-list#demo1"],
     "props": {
-      "tabId": "home1"
+      "tabId": "promocao"
     }
   },
   "tab-content.item#home2": {
-    "children": ["rich-text"],
+    "children": ["slider-layout#demo-products","list-context.product-list#demo2"],
     "props": {
-      "tabId": "home2"
+      "tabId": "corinthians"
     }
   },
   "tab-content.item#home3": {
-    "children": ["rich-text"],
+    "children": ["slider-layout#demo-products","list-context.product-list#demo3"],
     "props": {
-      "tabId": "home2"
+      "tabId": "palmeiras"
     }
   },
   "tab-content.item#home4": {
-    "children": ["rich-text"],
+    "children": ["slider-layout#demo-products","list-context.product-list#demo4"],
     "props": {
-      "tabId": "home2"
+      "tabId": "divertidos"
     }
   },
   "tab-content.item#home5": {
-    "children": ["rich-text"],
+    "children": ["slider-layout#demo-products","list-context.product-list#demo1"],
     "props": {
-      "tabId": "home2"
+      "tabId": "7maravilhas"
     }
   },
   "tab-content.item#home6": {
-    "children": ["rich-text"],
+    "children": ["slider-layout#demo-products","list-context.product-list#demo2"],
     "props": {
-      "tabId": "home2"
+      "tabId": "guerreiros"
     }
   },
-  "rich-text": {
+
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
     "props": {
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-6"
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#demo3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#demo4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+      
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  
+  },
+  "rich-text#leads":{
+    "props":{
+      "text":"**Formulario para leads em progreso...**",
+      "textPosition":"CENTER",
+      "blockClass":"richLeads"
     }
   }
 }
