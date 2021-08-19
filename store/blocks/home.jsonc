@@ -116,7 +116,8 @@
   },
 
   "tab-content.item#home1": {
-    "children": ["slider-layout#demo-products","list-context.product-list#demo1"],
+    "children": ["slider-layout#demo-products",
+      "list-context.product-list#demo1"],
     "props": {
       "tabId": "promocao"
     }
@@ -150,6 +151,16 @@
     "props": {
       "tabId": "guerreiros"
     }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ]
   },
 
   "list-context.product-list#demo1": {
