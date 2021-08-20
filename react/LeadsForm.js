@@ -33,18 +33,19 @@ const leadsForm = () => {
    
    
     return (
+        
         <div>
         <form className={`${handles.formStyle}`} onSubmit={handleSubmit}>
           <input
             type="text" name="name"
             className={`${handles.nameInput}`}
-            placeholder="Digite mseu " value={name}
+            placeholder="Seu Nome" value={name}
             onChange={(e)=>setName(e.target.value)} required
           />
           <input
           type="text" name="email"
             className={`${handles.emailInput}`}
-            placeholder="d seu email" value={email}
+            placeholder="O e-mail que você MAIS usa!" value={email}
             onChange={(e)=>setEmail(e.target.value)} required
           />
           <button

@@ -1,8 +1,26 @@
 .imageElement{
     border-radius: 20px;
+    
 }
 
+.imageElement--logotit{
+    
+    margin-left: 10px;
+    border-radius: 0;
+    
+}
 
+.sellingPrice{
+    color: white;
+}
+
+.listPrice{
+    color: white;
+}
+
+.installmentsPrice{
+    color: white;
+}
 .searchBarContainer {
     width: 550px;
     outline: none;

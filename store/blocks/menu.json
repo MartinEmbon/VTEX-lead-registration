@@ -12,6 +12,7 @@
     ]
   },
   "menu-item#entrar": {
+    
     "props": {      
       "id": "menu-item-entrar",
       "type": "custom",
@@ -24,8 +25,9 @@
         "tagTitle": "Entrar",
         "text": "ENTRAR"
       }
-    }
+    }    
   },
+
   "menu-item#desafios": {
     "props": {
       "id": "menu-item-desafios",

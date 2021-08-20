@@ -3,23 +3,10 @@
     "blocks": [
       "tab-layout#home",
       "rich-text#leads",
-//      "flex-layout.row#shelf",      
-     // "newsletter-form",
-      "leadsForm"
-      
-      
+      "leadsForm"    
     ]
   },
-  "newsletter-form": {
-    "children": [
-      "newsletter-input-email",
-      
-      "newsletter-input-name",
-      "newsletter-submit"
-      
-      
-    ]
-  },
+  
   "slider-layout": {
     "props": {
       "itemsPerPage": {
@@ -49,9 +36,6 @@
       "maxWidth": "80%"
     }
   },
-  //"flex-layout.row#shelf": {
-    //"children": ["list-context.product-list#demo1"]
-  //},
 
   "tab-layout#home": {
     "children": ["tab-list#home", "slider-layout", "tab-content#home"],
@@ -173,28 +157,34 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection":"147"
+      
     }
   },
   "list-context.product-list#demo2": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection":"147"
+      
     }
   },
   "list-context.product-list#demo3": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection":"147"
     }
   },
   "list-context.product-list#demo4": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection":"147"
       
     }
   },
@@ -213,7 +203,7 @@
   },
   "rich-text#leads":{
     "props":{
-      "text":"**Formulario para leads**",
+      "text":"**Want discounts? Subscribe!**",
       "textPosition":"CENTER",
       "blockClass":"richLeads"
     }

@@ -11,4 +11,10 @@
 
 .styledLinkContainer{
     text-align: center;
+}   
+
+.menuContainer{
+    display: flex;
+    margin: auto;
+    text-align: center;
 }

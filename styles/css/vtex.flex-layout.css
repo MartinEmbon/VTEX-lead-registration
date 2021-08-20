@@ -20,4 +20,20 @@
     margin-right: auto;
     
 }
+.flexRowContent--main-header-mobile{
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.flexColChild{
+    margin: auto;
+    width: 100%;
+    
+}
 
+.flexCol{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}

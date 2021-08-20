@@ -5,8 +5,10 @@
     padding:10px;
     margin-bottom: .5rem;
     outline:none;
-    border:none;
-    border-bottom: 1px solid grey;
+    border:1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    
 }
 
 .formStyle{
@@ -19,6 +21,7 @@
     border-radius:5px;
     padding: 10px 20px;
     box-shadow:5px 5px 15px -5px #000000;
+    background-color: darkgrey;
 
 }
 
@@ -29,8 +32,7 @@
     border-radius: 5px;
     padding: 5px;
     width: 50%;
-    
-    outline:none;
-    
+    background-color: #59ff00;
+    outline:none;    
     cursor: pointer;
 }

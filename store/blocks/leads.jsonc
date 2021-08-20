@@ -2,12 +2,18 @@
 
 {
     "store.custom#leads": {
-      "blocks": ["rich-text#l"]
+      "blocks": ["flex-layout.row#rich"]
     },
     
+    "flex-layout.row#rich":{
+      "children":["rich-text#l"]
+    },
+
     "rich-text#l": {
       "props": {
-        "text": "Leads Confirmation Thank You!"
+        "text": "**Leads Confirmation Page.  Thank You & enjoy our discounts!**",
+        "blockClass":"leadText",
+        "textPosition":"CENTER"
       }
      }
   }

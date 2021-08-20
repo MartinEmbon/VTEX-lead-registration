@@ -7,3 +7,10 @@
     margin-top: 2rem;
     color:black;
 }
+
+.paragraph--leadText{
+    color: #59ff00;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
