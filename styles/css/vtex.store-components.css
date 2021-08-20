@@ -2,12 +2,17 @@
     border-radius: 20px;
     
 }
+.infoCardContainer{
+    margin-top: 4rem;
+}
 
-.imageElement--logotit{
-    
+.imageElement--logotit{    
     margin-left: 10px;
     border-radius: 0;
-    
+}
+
+.infoCardImage{
+    border-radius: 10px;
 }
 
 .sellingPrice{

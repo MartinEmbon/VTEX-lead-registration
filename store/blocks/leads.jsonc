@@ -2,6 +2,46 @@
 
 {
     "store.custom#leads": {
+      "blocks": ["info-card"]
+    },
+
+    "info-card": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "https://atulhost.com/wp-content/uploads/2019/07/generate-leads.jpg",
+        "headline": "Leads Confirmation Page.",
+        "subhead": "Thank You & enjoy our discounts!",
+        "callToActionMode": "button",
+        "callToActionText": "Volver",
+        "callToActionUrl": "/",
+        "textAlignment": "center"
+        
+      }
+    }
+  }
+    /*
+    "info-card#button-left": {
+      "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://atulhost.com/wp-content/uploads/2019/07/generate-leads.jpg",
+      "headline": "Leads Confirmation Page.  ",
+      "subhead": "Thank You & enjoy our discounts!",
+      "callToActionMode": "link",
+      "callToActionText": "Volver",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+      }
+    }
+  }
+  
+*/
+  /*
+  
+
+{
+    "store.custom#leads": {
       "blocks": ["flex-layout.row#rich"]
     },
     
@@ -17,3 +57,4 @@
       }
      }
   }
+  */
