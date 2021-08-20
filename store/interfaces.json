@@ -1,0 +1,9 @@
+
+{
+    "wishList-button": {
+        "component":"WishListButton"
+    },
+    "leadsForm": {
+        "component":"LeadsForm"
+    }
+}

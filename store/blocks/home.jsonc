@@ -4,14 +4,20 @@
       "tab-layout#home",
       "rich-text#leads",
 //      "flex-layout.row#shelf",      
-      "newsletter-form"
+     // "newsletter-form",
+      "leadsForm"
+      
+      
     ]
   },
   "newsletter-form": {
     "children": [
       "newsletter-input-email",
+      
       "newsletter-input-name",
       "newsletter-submit"
+      
+      
     ]
   },
   "slider-layout": {
@@ -207,7 +213,7 @@
   },
   "rich-text#leads":{
     "props":{
-      "text":"**Formulario para leads em progreso...**",
+      "text":"**Formulario para leads**",
       "textPosition":"CENTER",
       "blockClass":"richLeads"
     }

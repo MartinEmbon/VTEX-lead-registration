@@ -1,0 +1,36 @@
+.nameInput,
+.emailInput{
+    margin-top:.5rem;
+    height: 30px;    
+    padding:10px;
+    margin-bottom: .5rem;
+    outline:none;
+    border:none;
+    border-bottom: 1px solid grey;
+}
+
+.formStyle{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    margin:auto;
+    margin-bottom: 1rem;
+    border: 1px solid grey;
+    border-radius:5px;
+    padding: 10px 20px;
+    box-shadow:5px 5px 15px -5px #000000;
+
+}
+
+.btnSend{
+    margin:auto;
+    margin-top:1rem;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%;
+    
+    outline:none;
+    
+    cursor: pointer;
+}
