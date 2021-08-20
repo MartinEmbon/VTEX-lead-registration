@@ -15,6 +15,7 @@
 
 .menuContainer{
     display: flex;
+    
     margin: auto;
     text-align: center;
 }
