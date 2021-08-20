@@ -1,0 +1,13 @@
+
+
+{
+    "store.custom#leads": {
+      "blocks": ["rich-text#l"]
+    },
+    
+    "rich-text#l": {
+      "props": {
+        "text": "Leads Confirmation Thank You!"
+      }
+     }
+  }

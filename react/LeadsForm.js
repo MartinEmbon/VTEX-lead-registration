@@ -20,13 +20,14 @@ const leadsForm = () => {
   const handleSubmit = e => {
     e.preventDefault();
     const data = {
-      name: setName,
-      email: setEmail
+      name,
+      email
     };
     axios
       .post("https://a39p50jbpf.execute-api.sa-east-1.amazonaws.com/prod", data)
       .then(res => console.log(res))
       .catch(err => console.log(err));
+      window.location = "/leads"
   };
 
    
@@ -43,7 +44,7 @@ const leadsForm = () => {
           <input
           type="text" name="email"
             className={`${handles.emailInput}`}
-            placeholder="Digdkite seu email" value={email}
+            placeholder="d seu email" value={email}
             onChange={(e)=>setEmail(e.target.value)} required
           />
           <button
