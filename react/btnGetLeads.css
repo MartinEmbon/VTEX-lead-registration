@@ -1,0 +1,38 @@
+.btnLeads{
+    width:100px;
+    height:50px;
+    
+    background-color: rgb(78, 78, 78);
+    color:white;
+    cursor: pointer;
+    transition: background-color .5s;
+    border:none;
+    margin-top:1rem;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    
+}
+.btnReturn{
+    width:100px;
+    height:50px;
+    margin-left:1rem;
+    background-color: #59ff00;
+    color:white;
+    cursor: pointer;
+    transition: background-color .5s;
+    border:none;
+    margin-top:1rem;
+    letter-spacing: 1px;
+    border-radius: 10px;    
+}
+
+
+.btnLeads:hover{
+    background-color:  #59ff00;
+    color: white;
+}
+
+.btnReturn:hover{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}

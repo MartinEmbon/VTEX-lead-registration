@@ -5,7 +5,7 @@
 
 .paragraph--richLeads{
     margin-top: 2rem;
-    color:black;
+    color:white;
 }
 
 .paragraph--leadText{
@@ -13,4 +13,11 @@
     background-color: black;
     text-align: center;
     text-transform: uppercase;
+}
+
+.paragraph--richLeads1{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }

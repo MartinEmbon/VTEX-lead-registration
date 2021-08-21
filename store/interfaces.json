@@ -1,7 +1,7 @@
 
 {
-    "wishList-button": {
-        "component":"WishListButton"
+    "showLeads": {
+        "component":"ShowLeads"
     },
     "leadsForm": {
         "component":"LeadsForm"

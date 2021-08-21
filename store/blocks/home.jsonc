@@ -3,7 +3,8 @@
     "blocks": [
       "tab-layout#home",
       "rich-text#leads",
-      "leadsForm"    
+      "leadsForm"
+          
     ]
   },
   

@@ -2,6 +2,23 @@
     background-color:lightgray;
 }
 
+.flexRow--leadsRow{
+    background-color: darkred;
+    width: 60%;    
+    
+    margin:auto;
+    margin-top:1rem;
+    display: flex;
+    align-items: center;
+}
+.flexRow--leadsBtn{
+    border-radius: 10px;
+    width: 20%;    
+    margin:auto;
+    
+    
+}
+
 .flexRowContent--minicartFooter{
     color: white;    
 }
