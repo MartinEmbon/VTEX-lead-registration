@@ -17,7 +17,10 @@
 
 .paragraph--richLeads1{
     color:white;
-    font-size: 1.5rem;
+    background-color: rgb(24, 22, 122);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
 }
