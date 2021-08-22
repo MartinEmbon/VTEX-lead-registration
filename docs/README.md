@@ -18,7 +18,7 @@ As for `media queries` I used a few for responsive purposes.
 
 ### The Back End - AWS - API GATEWAY - LAMBDA FUNCTIONS - DYNAMO DB
 
-<img src="/docs/leads.png" width="100">
+<img src="/docs/leads.png" width="400">
 
 This part of the challenge was very interesting and gave me a lot of new insight about AWS. 
 
@@ -32,13 +32,13 @@ The steps I followed:
 
 ### Extra Bonus - `get the leads`
 
-<img src="/docs/leadsconf.png" width="100">
+<img src="/docs/leadsconf.png" width="400">
 
 Once the user has completed the subscription form, it will redirect to a /leads page.  In there, besides rendering a "thank you" message, `you can click in the button I added to the purpose of printing in console details of all the previous leads that were saved in the database so to check it is fully functioning`. 
 
 ### The Whatsapp Link
 
-<img src="/docs/whatsappfunc.png" width="100">
+<img src="/docs/whatsappfunc.png" width="400">
 
 Available in every page, it links to the api service. 
 
