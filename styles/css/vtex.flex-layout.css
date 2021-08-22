@@ -14,9 +14,7 @@
 .flexRow--leadsBtn{
     border-radius: 10px;
     width: 20%;    
-    margin:auto;
-    
-    
+    margin:auto;    
 }
 
 .flexRowContent--minicartFooter{
@@ -38,8 +36,9 @@
     
 }
 .flexRowContent--main-header-mobile{
-    
+    background-color: rgb(78, 78, 78);
     display: flex;
+    padding:0;
     justify-content: center;
     justify-items: center;
     

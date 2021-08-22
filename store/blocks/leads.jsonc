@@ -1,6 +1,9 @@
 {
     "store.custom#leads": {
-      "blocks": ["info-card","rich-text#console", "flex-layout.row#leadsconsole"]
+      "blocks": ["info-card",
+        "rich-text#console",
+        "flex-layout.row#leadsconsole",        
+        "btnWhatsapp"]
     },
 
     "info-card": {
@@ -19,7 +22,7 @@
     },
     "rich-text#console":{
       "props":{
-        "text":"**Click em botao para mostrar Leads por consola**",
+        "text":"**Click no botao para mostrar Leads por consola**",
         "textPosition":"CENTER",
         "blockClass":"richLeads1"
       }

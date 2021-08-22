@@ -27,7 +27,8 @@
       "paddingBottom":4
     },
     "children": [
-      "flex-layout.col#logo-desktop",
+      "logo#desktop",
+      //"flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
@@ -40,21 +41,31 @@
       "width": "grow"
     }
   },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["image"]
-  },
-  "image": {
+  //"flex-layout.col#logo-desktop": {
+    //"props": {
+      //"verticalAlign": "middle"
+    //},
+    //"children": ["logo"]
+  //},
+ 
+    "logo#desktop": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "src": "assets/logo.png",
-      "width": "50%",
-      "blockClass":"logotit"
+      "url": "assets/logo.png",
+      "width": "310"
     }
   },
+    "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.png",
+      "width": "110",
+      "blockClass":"logoMobile"
+    }
+  },
+
 
   
   "header-layout.mobile": {
@@ -65,17 +76,26 @@
   },
 
   
+  // "flex-layout.row#mobile1": {
+  //   "children": [
+  //     "flex-layout.col#logo-desktop"
+  //   ],
+  //   "props": {
+  //     "blockClass": "main-header-mobile",
+  //     "preventHorizontalStretch": true,
+  //     "preserveLayoutOnMobile": true,
+  //     "fullWidth": true,
+  //     "horizontalAlign":"center"
+  //   }
+  // },
   "flex-layout.row#mobile1": {
+    "props":{
+      "blockClass":"firstRowMobile"
+    },
     "children": [
-      "flex-layout.col#logo-desktop"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true,
-      "horizontalAlign":"center"
-    }
+      "logo#mobile"
+    ]
+    
   },
   "flex-layout.row#mobile2": {
     "children": [
@@ -86,12 +106,12 @@
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true,"horizontalAlign":"center"
+      "fullWidth": true,
+      "horizontalAlign":"center"
     }
   },
   "flex-layout.row#mobile3": {
-    "children": [
-      
+    "children": [      
       "minicart.v2"
     ],
     "props": {

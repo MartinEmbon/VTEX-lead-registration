@@ -25,7 +25,8 @@
       "product-price",      
       "flex-layout.row#qty-sku", 
       "shipping-simulator",
-      "buy-button"]
+      "buy-button",
+      "btnWhatsapp"]
   },
   "flex-layout.row#qty-sku": {
     "children": [

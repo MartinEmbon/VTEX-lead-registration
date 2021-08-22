@@ -5,7 +5,8 @@
 
 .paragraph--richLeads{
     margin-top: 2rem;
-    color:white;
+    color:black;
+    text-align: center;
 }
 
 .paragraph--leadText{

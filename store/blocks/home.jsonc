@@ -3,8 +3,8 @@
     "blocks": [
       "tab-layout#home",
       "rich-text#leads",
-      "leadsForm"
-          
+      "leadsForm",
+      "btnWhatsapp"    
     ]
   },
   
@@ -20,6 +20,7 @@
       "autoplay": { "timeout": 7000, "stopOnHover": true },
       "arrowSize": "15",
       "blockClass": "carousel"
+      
     },
     "children": ["image#banner1", "image#banner2"]
   },
@@ -34,7 +35,7 @@
   "image#banner2": {
     "props": {
       "src": "assets/banner2.png",    
-      "maxWidth": "80%"
+      "maxWidth": "65%"
     }
   },
 
@@ -158,8 +159,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "collection":"147"
+      "orderBy": "OrderByTopSaleDESC"
+      //"collection":"147"
       
     }
   },
@@ -167,8 +168,7 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "collection":"147"
+      "orderBy": "OrderByTopSaleDESC"
       
     }
   },
@@ -176,25 +176,23 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "collection":"147"
+      "orderBy": "OrderByTopSaleDESC"
     }
   },
   "list-context.product-list#demo4": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "collection":"147"
+      "orderBy": "OrderByTopSaleDESC"
       
     }
   },
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 2,
         "tablet": 2,
-        "phone": 2
+        "phone": 1
       },
       "infinite": true,
       "fullWidth": false,
@@ -204,7 +202,7 @@
   },
   "rich-text#leads":{
     "props":{
-      "text":"**Want discounts? Subscribe!**",
+      "text":"**Cadastre-se e receba 'super ofertas'**",
       "textPosition":"CENTER",
       "blockClass":"richLeads"
     }

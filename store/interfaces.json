@@ -5,5 +5,9 @@
     },
     "leadsForm": {
         "component":"LeadsForm"
+    },
+    "btnWhatsapp":{
+        "component":"WhatsappBtn"
     }
+
 }

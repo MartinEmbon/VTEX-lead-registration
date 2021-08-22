@@ -6,12 +6,13 @@ import { useCssHandles } from "vtex.css-handles"
 
 import "./index.css"
 
-const CSS_HANDLES = ["nameInput","emailInput","formStyle","btnSend"]
+const CSS_HANDLES = ["nameInput","telInput", "emailInput","formStyle","btnSend"]
 
 
 const leadsForm = () => {
    const [name,setName]=useState("")
    const [email,setEmail]=useState("")
+   const [telefone,setTelefone]=useState("")
 
    const handles = useCssHandles(CSS_HANDLES)    
      
@@ -21,7 +22,8 @@ const leadsForm = () => {
     e.preventDefault();
     const data = {
       name,
-      email
+      email,
+      telefone
     };
     axios
       .post("https://a39p50jbpf.execute-api.sa-east-1.amazonaws.com/prod", data)
@@ -47,6 +49,12 @@ const leadsForm = () => {
             className={`${handles.emailInput}`}
             placeholder="O e-mail que você MAIS usa!" value={email}
             onChange={(e)=>setEmail(e.target.value)} required
+          />
+          <input
+          type="text" name="telefone"
+            className={`${handles.telInput}`}
+            placeholder="Telefone" value={telefone}
+            onChange={(e)=>setTelefone(e.target.value)} required
           />
           <button
           className={`${handles.btnSend}`}

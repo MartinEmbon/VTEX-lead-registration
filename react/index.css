@@ -1,5 +1,6 @@
 .nameInput,
-.emailInput{
+.emailInput,
+.telInput{
     margin-top:.5rem;
     height: 30px;    
     padding:10px;
