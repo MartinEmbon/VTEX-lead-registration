@@ -3,7 +3,7 @@
 This theme is the store´s front end and back end `developed by Martin Embon` for the `Hiring Coders VTEX challenge.`
 
 ![](docs/whatslogo.png)
-<img src="docs/whatslogo.png" width="100">
+<img src="/docs/whatslogo.png" width="100">
 
 
 It has several functionalities and details that are in the description right below. 
