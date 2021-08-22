@@ -3,7 +3,7 @@
 This theme is the store´s front end and back end `developed by Martin Embon` for the `Hiring Coders VTEX challenge.`
 
 ![](docs/whatslogo.png)
-<img src="docs/whatsapplogo.png">
+<img src="whatsapplogo.png">
 <img src="/docs/whatsapplogo.png">
 <img src="./docs/whatsapplogo.png">
 
