@@ -2,8 +2,8 @@
     "store.custom#leads": {
       "blocks": ["info-card",
         "rich-text#console",
-        "flex-layout.row#leadsconsole",        
-        "btnWhatsapp"]
+        "flex-layout.row#leadsconsole"
+        ]
     },
 
     "info-card": {

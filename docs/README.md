@@ -40,7 +40,7 @@ Once the user has completed the subscription form, it will redirect to a /leads 
 
 <img src="/docs/whatsappfunc.png" width="400">
 
-Available in every page, it links to the api service. 
+Available in all pages, it links to the api service. 
 
 
 ### Thank you and hope you`ll enjoy!

@@ -14,7 +14,7 @@ const btnWhatsapp = () => {
             href="https://api.whatsapp.com/send?phone=55551195073238&text=Ola!%20gostaria%20de%20saber%20uma%20coisa..."
             target="_blank">
                 
-            <img src={whatslogo} alt="whatsappLogo" />
+            <img src={whatslogo} alt="WhatsLogo" />
         </a>
         </>
     )
