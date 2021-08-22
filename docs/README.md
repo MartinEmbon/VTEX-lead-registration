@@ -2,19 +2,21 @@
 
 This theme is the store´s front end and back end `developed by Martin Embon` for the `Hiring Coders VTEX challenge.`
 
-It has several functionalities and details that are in the descriptions right below. 
+![](docs/whatslogo.png)
+
+It has several functionalities and details that are in the description right below. 
 
 ## FRONT END
 
 ### The Store
 
-The project has a home page that displays the header, tab-layouts, slider-layouts and a footer.  Inside each element there are inner props regarding each one of them. There is also a product page and a `LEADS PAGE` that the user is going to be redirected after subscribing. 
-
-As for the collection of the tab-layouts I use the default ones. 
+The project has a home page that displays the header, tab-layouts, slider-layouts and a footer.  Inside each element there are inner props regarding each one of them such as product summary, shelf, buttons and so on. There is also a product page and a `LEADS PAGE` that the user is going to be redirected after subscribing. 
 
 As for the CSS Styling `I looked for every css-selector`rather than editing the style.json file. 
 
 As for the styling of my custom components in react I used `CSS HANDLES`. 
+
+As for `media queries` I used a few for responsive purposes. 
 
 
 ### The Back End - AWS - API GATEWAY - LAMBDA FUNCTIONS - DYNAMO DB
@@ -31,7 +33,7 @@ The steps I followed:
 
 ### Extra Bonus - `get the leads`
 
-Once the user has completed the subscription form, it will redirect to a /leads page.  In there, besides rendering a "thank you" message, `you can click in the button that is at the page to print in console details of all the previous leads that were saved in the database so to check it is fully functioning`. 
+Once the user has completed the subscription form, it will redirect to a /leads page.  In there, besides rendering a "thank you" message, `you can click in the button I added to the purpose of printing in console details of all the previous leads that were saved in the database so to check it is fully functioning`. 
 
 ### The Whatsapp Link
 

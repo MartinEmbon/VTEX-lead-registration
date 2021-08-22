@@ -1,0 +1,11 @@
+.flex-row{
+    border-style:none;
+}
+
+.flex-row.items{
+    border-style:none;
+}
+.b--solid{
+    border:2px solid red;
+}
+/*flex.flex-row.items-stretch.overflow-hidden.br2.bw1.b--solid.b--muted-4.hover-b--muted-3.h-large*/

@@ -37,9 +37,15 @@
     color: white;
 }
 .searchBarContainer {
-    width: 550px;
+    width: 750px;
     outline: none;
     box-shadow: none;
+    border: none;    
+}
+
+.searchBarInnerContainer{
+    background-color: transparent;
+    border: none;
 }
 
 @media screen and (max-width:700px){
@@ -52,6 +58,6 @@
     border: none;
 }
 
-.searchIcon{
-    background-image: "assets/heart.png";
+.searchBarIcon{
+    background-color: transparent;
 }

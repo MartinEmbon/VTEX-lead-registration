@@ -2,5 +2,15 @@
     border: none;
     outline: none;
     box-shadow: none;
-    border-bottom: 2px solid grey;
+    text-align:left;
+    background-color: transparent;
+    
+    
+}
+
+.input::placeholder{
+    color:#eee;
+    font-weight: bold;
+    text-transform: uppercase;
+    
 }
