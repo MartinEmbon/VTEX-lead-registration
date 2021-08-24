@@ -1,10 +1,11 @@
 {
   "store.home": {
     "blocks": [      
+      "btnWhatsapp",
       "tab-layout#home",
       "rich-text#leads",
-      "leadsForm",
-      "btnWhatsapp"   
+      "leadsForm"
+      
     ]
   },
   
